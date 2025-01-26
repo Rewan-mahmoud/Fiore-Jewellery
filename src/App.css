@@ -1,0 +1,11 @@
+.App {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: #00002f;
+  --secondary-color: #a08b7d;
+  --third-color:#FFFF;
+  --primary-font: "initial";
+}
