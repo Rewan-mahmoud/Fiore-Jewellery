@@ -3,7 +3,7 @@ import img2 from "../assest/Picture18.png";
 import img3 from "../assest/Picture2.png";
 import img4 from "../assest/Picture3.png";
 import img5 from "../assest/Picture4.jpg";
-import img6 from "../assest/Picture5.jpg";
+import img6 from "../assest/coat.png";
 import img7 from "../assest/Picture6.jpg";
 import img8 from "../assest/Picture7.jpg";
 import img9 from "../assest/Picture8.jpg";
