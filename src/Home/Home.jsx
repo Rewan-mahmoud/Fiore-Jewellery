@@ -245,7 +245,7 @@ export default function Home() {
             <div className="row">
               {/* Top Image */}
               <div className="col-10 mb-4">
-                <img src={img15} width="100%" className="img-fluid" />
+                <img src={img15} width="100%" alt="z" className="img-fluid" />
               </div>
               {/* Bottom Two Images */}
 
