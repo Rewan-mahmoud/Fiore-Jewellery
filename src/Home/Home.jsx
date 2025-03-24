@@ -237,7 +237,7 @@ export default function Home() {
               timeless beauty and superior craftsmanship.
             </p>
             <div className="col-md-12">
-              <img src={img16} alt="Middle Image" className="img-fluid" />
+              <img src={img16} alt="Middle" className="img-fluid" />
             </div>
           </div>
           {/* Right Column */}
@@ -253,7 +253,7 @@ export default function Home() {
                 <img
                   src={img17}
                   width="100%"
-                  alt="Bottom Image"
+                  alt="Bottom"
                   className="img-fluid"
                 />
                 <p>
