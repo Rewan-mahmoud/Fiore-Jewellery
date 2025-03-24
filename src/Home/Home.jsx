@@ -22,11 +22,11 @@ export default function Home() {
   return (
     <>
     <div className="homeImg">
-    <img src={img1} alt="image1" />
+    <img src={img1} alt="home" />
     </div>
   
       <div className="backgroungImg">
-        <img src={img2} alt="image2" />
+        <img src={img2} alt="Background" />
       </div>
 
       <div className="Title">
@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="content ">
         <div className="container mb-5">
-          <img src={img3} alt="image3" />
+          <img src={img3} alt="container" />
           <h1>ITALIAN INSPIRED ELEGANCE IN THE HEART OF QATAR</h1>
           <p>
             {" "}
@@ -48,7 +48,7 @@ export default function Home() {
             elegance, and the grace found in every intricate detail of nature.
           </p>
         </div>
-        <img src={img4} width="100%" alt="image4" />
+        <img src={img4} width="100%" alt="b" />
       </div>
       <div className="content-2">
         <div className="container">
@@ -64,10 +64,10 @@ export default function Home() {
             throughout the region.
           </p>
         </div>
-        <img src={img5} width="100%" alt="image5" />
+        <img src={img5} width="100%" alt="c" />
       </div>
       <div className="content-3">
-        <img src={img6} width="100%" alt="image6" />
+        <img src={img6} width="100%" alt="d" />
         <div className="container mt-5">
           <h1>OUR MISSION</h1>
           <p>
@@ -85,15 +85,15 @@ export default function Home() {
             {/* Left Column */}
             <div className="col-md-6 d-flex flex-column">
               <div className="mb-4 flex-grow-1">
-                <img src={img7} alt="image7" className="img-fluid fit-row-height" />
+                <img src={img7} alt="e" className="img-fluid fit-row-height" />
               </div>
               <div className="flex-grow-1">
-                <img src={img9} alt="image8" className="img-fluid fit-row-height" />
+                <img src={img9} alt="f" className="img-fluid fit-row-height" />
               </div>
             </div>
             {/* Right Column */}
             <div className="col-md-6">
-              <img src={img8} alt="image10" className="img-fluid fit-row-height" />
+              <img src={img8} alt="g" className="img-fluid fit-row-height" />
             </div>
           </div>
           <h1 className="mt-5">A COLLECTION FOR EVERY GENERATION</h1>
@@ -207,7 +207,7 @@ export default function Home() {
       </div>
       <div className="content-5">
         <div className="container">
-          <img src={img19} width="100%" alt="" />
+          <img src={img19} width="100%" alt="e" />
           <h1 className="mt-4">OUR STORY AND VISION</h1>
           <p>
             Fiore Jewelry was founded with a singular vision: to introduce Qatar
