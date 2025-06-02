@@ -2,14 +2,14 @@ import img1 from "../assest/Picture1.png";
 import img2 from "../assest/Picture18.png";
 import img3 from "../assest/Picture2.png";
 import img4 from "../assest/Picture3.png";
-import img5 from "../assest/Picture4.jpg";
-import img6 from "../assest/coat.png";
+import img5 from "../assest/first.png";
+import img6 from "../assest/Second.png";
 import img7 from "../assest/Picture6.jpg";
 import img8 from "../assest/Picture7.jpg";
-import img9 from "../assest/Picture8.jpg";
-import img10 from "../assest/Picture9.jpg";
-import img11 from "../assest/Picture10.jpg";
-import img12 from "../assest/Picture11.jpg";
+import img9 from "../assest/third.png";
+import img10 from "../assest/four.png";
+import img11 from "../assest/five.png";
+import img12 from "../assest/six.png";
 import img13 from "../assest/Picture18.jpg";
 import img14 from "../assest/Picture12.jpg";
 import img15 from "../assest/Picture15.jpg";
@@ -18,13 +18,15 @@ import img17 from "../assest/Picture17.jpg";
 import img18 from "../assest/Picture13.jpg";
 import img19 from "../assest/Picture14.jpg";
 import "../Home/home.css";
+import "../App.css";
+
 export default function Home() {
   return (
     <>
-    <div className="homeImg">
-    <img src={img1} alt="home" />
-    </div>
-  
+      <div className="homeImg">
+        <img src={img1} alt="home" />
+      </div>
+
       <div className="backgroungImg">
         <img src={img2} alt="Background" />
       </div>
@@ -64,7 +66,7 @@ export default function Home() {
             throughout the region.
           </p>
         </div>
-        <img src={img5} width="100%" alt="c" />
+        <img className="mb-3" src={img5} width="100%" alt="c" />
       </div>
       <div className="content-3">
         <img src={img6} width="100%" alt="d" />
@@ -142,7 +144,6 @@ export default function Home() {
               <div className="col-md-12 mb-4">
                 <img
                   src={img10}
-                  width="100%"
                   alt="Inspecting diamond"
                   className="img-fluid rounded"
                 />
@@ -150,7 +151,6 @@ export default function Home() {
               <div className="col-md-12 mb-4">
                 <img
                   src={img11}
-                  width="100%"
                   alt="Crafting ring"
                   className="img-fluid rounded"
                 />
@@ -208,7 +208,10 @@ export default function Home() {
       <div className="content-5">
         <div className="container">
           <img src={img19} width="100%" alt="e" />
-          <h1 className="mt-4">OUR STORY AND VISION</h1>
+          <h1 className="mt-4">
+            WHY CHOOSE <br />
+            FIORE JEWELLERY ?
+          </h1>
           <p>
             Fiore Jewelry was founded with a singular vision: to introduce Qatar
             to the unmatched artistry and refinement of Italian-inspired luxury.
@@ -266,10 +269,22 @@ export default function Home() {
         </div>
       </div>
       <div className="footer">
+        <div className="first-title">
+          <h1>Thank you</h1>
+          <p>F O R W A T C H I NG</p>
+        </div>
+
         <div className="Title">
           <h1>FIORE</h1>
           <span>JEWELLERY</span>
           <p> Doha, Qatar</p>
+          <a
+            href="https://www.fiorejewellery.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            www.fiorejewellery.com
+          </a>{" "}
         </div>
       </div>
     </>
