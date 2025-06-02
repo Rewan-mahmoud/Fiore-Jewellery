@@ -271,7 +271,7 @@ export default function Home() {
       <div className="footer">
         <div className="first-title">
           <h1>Thank you</h1>
-          <p>F O R W A T C H I NG</p>
+          <p>F O R  W A T C H I NG</p>
         </div>
 
         <div className="Title">
@@ -279,7 +279,7 @@ export default function Home() {
           <span>JEWELLERY</span>
           <p> Doha, Qatar</p>
           <a
-            href="https://www.fiorejewellery.com"
+            href="https://fiorejewellery.com"
             target="_blank"
             rel="noopener noreferrer"
           >
