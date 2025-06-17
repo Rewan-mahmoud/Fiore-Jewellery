@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <img src={img4} width="100%" alt="b" />
       </div>
-      <div className="content-2">
+      <div className="content content-2">
         <div className="container">
           <h1>OUR STORY AND VISION</h1>
           <p>
@@ -66,9 +66,9 @@ export default function Home() {
             throughout the region.
           </p>
         </div>
-        <img className="mb-3" src={img5} width="100%" alt="c" />
+        <img className="mb-5" src={img5} width="100%" alt="c" />
       </div>
-      <div className="content-3">
+      <div className="content content-3">
         <img src={img6} width="100%" alt="d" />
         <div className="container mt-5">
           <h1>OUR MISSION</h1>
@@ -81,7 +81,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="content-4">
+      <div className="content content-4">
         <div className="container">
           <div className="row align-items-stretch">
             {/* Left Column */}
@@ -112,7 +112,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="service-section container my-5">
+      <div className="service-section content container my-5">
         <div className="row ">
           {/* Left Column: Text */}
           <div className="col-md-6 text-content">
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="service-section container my-5">
+      <div className="service-section content container my-5">
         <div className="row ">
           {/* Left Column: Text */}
           <div className="col-md-6 text-content">
@@ -205,7 +205,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="content-5">
+      <div className="content-5 content">
         <div className="container">
           <img src={img19} width="100%" alt="e" />
           <h1 className="mt-4">
@@ -224,7 +224,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="future-section container my-5">
+      <div className="future-section content container my-5">
         <div className="row">
           {/* Left Column */}
           <div className="col-md-7 text-container">
